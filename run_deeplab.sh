@@ -1,4 +1,8 @@
- IMG_PATH="/home/martin/ml/train-deeplab/exper/voc12/data/images_orig/"
+ #!/usr/bin/env sh
+ # Sadjad A Esfeden, sadjad@ece.neu.edu
+ # 05/09/2016
+ 
+ IMG_PATH="/home/sasghariesfeden/Documents/git/train-deeplab/exper/voc12/data/images_orig/"
  
  CHAIR="${IMG_PATH}2007_005844.jpg"
  BOTTLE="${IMG_PATH}2008_007811.jpg"
@@ -13,8 +17,8 @@
  NET="DeepLab-LargeFOV/deploy4.prototxt"
  
  #MODEL="exper/voc12/model/DeepLab-LargeFOV-Semi-Bbox-Fixed/train_iter_6000.caffemodel"
- MODEL="exper/voc12/model/DeepLab-LargeFOV/train2_iter_12000.caffemodel"                                                                                                                                            
- #MODEL="exper/voc12/model/DeepLab-LargeFOV_TMP/train_iter_6000.caffemodel"
+ #MODEL="exper/voc12/model/DeepLab-LargeFOV/train2_iter_12000.caffemodel"                                                                                                                                            
+ MODEL="exper/voc12/model/DeepLab-LargeFOV_TMP/train_iter_6000.caffemodel"
  #MODEL="exper/voc12/model/DeepLab-LargeFOV/train_iter_6000.caffemodel"
  
  #IMAGES="${CHAIR} ${BOTTLE} ${BIRD}"
